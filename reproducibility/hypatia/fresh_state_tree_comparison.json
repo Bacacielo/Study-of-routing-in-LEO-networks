@@ -1,0 +1,54 @@
+{
+  "all_networks_exact": true,
+  "method": "SHA-256 comparison of every file produced in each focused fresh network directory against the same relative release file",
+  "networks": {
+    "kuiper_k1": {
+      "all_fresh_files_match_release_exactly": true,
+      "bandwidth_file_count": 2000,
+      "content_mismatch_count": 0,
+      "content_mismatches": [],
+      "fresh_directory": "/home/bacacielo/leo-hypatia-phase2-official/hypatia/paper/satellite_networks_state/gen_data/kuiper_630_isls_plus_grid_ground_stations_top_100_algorithm_free_one_only_over_isls",
+      "fresh_file_count": 4005,
+      "fresh_subset_manifest_sha256": "41f420e646c8d460c0002ca875584142c9b22520fd62c40966b193c1546f6421",
+      "fstate_file_count": 2000,
+      "missing_from_release": [],
+      "missing_from_release_count": 0,
+      "other_input_file_count": 5,
+      "released_directory": "/home/bacacielo/leo-hypatia-phase1/hypatia/paper/satellite_networks_state/gen_data/kuiper_630_isls_plus_grid_ground_stations_top_100_algorithm_free_one_only_over_isls",
+      "released_subset_manifest_sha256": "41f420e646c8d460c0002ca875584142c9b22520fd62c40966b193c1546f6421"
+    },
+    "starlink_s1": {
+      "all_fresh_files_match_release_exactly": true,
+      "bandwidth_file_count": 2000,
+      "content_mismatch_count": 0,
+      "content_mismatches": [],
+      "fresh_directory": "/home/bacacielo/leo-hypatia-phase2-official/hypatia/paper/satellite_networks_state/gen_data/starlink_550_isls_plus_grid_ground_stations_top_100_algorithm_free_one_only_over_isls",
+      "fresh_file_count": 4005,
+      "fresh_subset_manifest_sha256": "f127f31658adc90ed17f0ded711d6ecf8680cb70a99ebd92d551ebfcd1ce95a7",
+      "fstate_file_count": 2000,
+      "missing_from_release": [],
+      "missing_from_release_count": 0,
+      "other_input_file_count": 5,
+      "released_directory": "/home/bacacielo/leo-hypatia-phase1/hypatia/paper/satellite_networks_state/gen_data/starlink_550_isls_plus_grid_ground_stations_top_100_algorithm_free_one_only_over_isls",
+      "released_subset_manifest_sha256": "f127f31658adc90ed17f0ded711d6ecf8680cb70a99ebd92d551ebfcd1ce95a7"
+    },
+    "telesat_t1": {
+      "all_fresh_files_match_release_exactly": true,
+      "bandwidth_file_count": 2000,
+      "content_mismatch_count": 0,
+      "content_mismatches": [],
+      "fresh_directory": "/home/bacacielo/leo-hypatia-phase2-official/hypatia/paper/satellite_networks_state/gen_data/telesat_1015_isls_plus_grid_ground_stations_top_100_algorithm_free_one_only_over_isls",
+      "fresh_file_count": 4005,
+      "fresh_subset_manifest_sha256": "c27088c230282db9a6c7ada4f9d26a5919420b3fbc99ee26e85af226a3120db8",
+      "fstate_file_count": 2000,
+      "missing_from_release": [],
+      "missing_from_release_count": 0,
+      "other_input_file_count": 5,
+      "released_directory": "/home/bacacielo/leo-hypatia-phase1/hypatia/paper/satellite_networks_state/gen_data/telesat_1015_isls_plus_grid_ground_stations_top_100_algorithm_free_one_only_over_isls",
+      "released_subset_manifest_sha256": "c27088c230282db9a6c7ada4f9d26a5919420b3fbc99ee26e85af226a3120db8"
+    }
+  },
+  "total_bandwidth_files": 6000,
+  "total_fresh_files": 12015,
+  "total_fstate_files": 6000
+}

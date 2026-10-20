@@ -1,0 +1,4 @@
+Constellation,SatelliteCount,MedianRouteChanges,MeanRouteChanges,P90RouteChanges,P95RouteChanges,FractionAtLeast7,MatchesOfficialExactly,MismatchCount
+Kuiper K1,1156,4,4.38525252525253,7,8,0.115353535353535,1,0
+Starlink S1,1584,4,4.50505050505051,7,7,0.110505050505051,1,0
+Telesat T1,351,2,1.98,4,4,0.00606060606060606,1,0

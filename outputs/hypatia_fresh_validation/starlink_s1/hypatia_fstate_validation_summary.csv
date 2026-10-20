@@ -1,0 +1,2 @@
+ConstellationKey,SatelliteCount,GroundStationCount,SnapshotCount,PairCount,MedianRouteChanges,MeanRouteChanges,P90RouteChanges,P95RouteChanges,FractionAtLeast7RouteChanges,MatchesOfficialEcdfExactly,EcdfMismatchCount
+starlink_s1,1584,100,2000,4950,4,4.50505050505051,7,7,0.110505050505051,1,0

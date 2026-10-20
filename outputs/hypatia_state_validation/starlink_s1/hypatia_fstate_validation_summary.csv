@@ -1,0 +1,2 @@
+Constellation,SatelliteCount,MedianRouteChanges,MeanRouteChanges,P90RouteChanges,P95RouteChanges,FractionAtLeast7,MatchesOfficialExactly,MismatchCount
+Starlink S1,1584,4,4.50505050505051,7,7,0.110505050505051,1,0

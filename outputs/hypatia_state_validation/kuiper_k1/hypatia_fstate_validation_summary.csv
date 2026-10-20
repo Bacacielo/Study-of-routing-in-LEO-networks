@@ -1,0 +1,2 @@
+Constellation,SatelliteCount,MedianRouteChanges,MeanRouteChanges,P90RouteChanges,P95RouteChanges,FractionAtLeast7,MatchesOfficialExactly,MismatchCount
+Kuiper K1,1156,4,4.38525252525253,7,8,0.115353535353535,1,0

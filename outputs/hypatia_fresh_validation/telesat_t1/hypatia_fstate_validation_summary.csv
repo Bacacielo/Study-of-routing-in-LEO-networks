@@ -1,0 +1,2 @@
+ConstellationKey,SatelliteCount,GroundStationCount,SnapshotCount,PairCount,MedianRouteChanges,MeanRouteChanges,P90RouteChanges,P95RouteChanges,FractionAtLeast7RouteChanges,MatchesOfficialEcdfExactly,EcdfMismatchCount
+telesat_t1,351,100,2000,4950,2,1.98,4,4,0.00606060606060606,1,0

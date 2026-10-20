@@ -1,0 +1,172 @@
+{
+  "constellations": {
+    "kuiper_k1": {
+      "label": "Kuiper K1",
+      "path_changes": {
+        "count": 4950,
+        "fraction_at_least_7": 0.11535353535353535,
+        "maximum": 16.0,
+        "mean": 4.385252525252525,
+        "median": 4.0,
+        "minimum": 1.0,
+        "p90_nearest_rank": 7.0,
+        "p95_nearest_rank": 8.0
+      },
+      "rtt_max_minus_min_ms": {
+        "count": 4950,
+        "maximum": 40.88370381710514,
+        "mean": 4.988373647291596,
+        "median": 4.857847194003359,
+        "minimum": 0.3543416530380249,
+        "p90_nearest_rank": 6.542885707881007,
+        "p95_nearest_rank": 7.569257298316181
+      }
+    },
+    "starlink_s1": {
+      "label": "Starlink S1",
+      "path_changes": {
+        "count": 4950,
+        "fraction_at_least_7": 0.11050505050505051,
+        "maximum": 13.0,
+        "mean": 4.505050505050505,
+        "median": 4.0,
+        "minimum": 1.0,
+        "p90_nearest_rank": 7.0,
+        "p95_nearest_rank": 7.0
+      },
+      "rtt_max_minus_min_ms": {
+        "count": 4950,
+        "maximum": 45.55258243697315,
+        "mean": 10.031841878808349,
+        "median": 10.175954022548115,
+        "minimum": 0.4249931797817275,
+        "p90_nearest_rank": 18.804089258775292,
+        "p95_nearest_rank": 20.69952289127159
+      }
+    },
+    "telesat_t1": {
+      "label": "Telesat T1",
+      "path_changes": {
+        "count": 4950,
+        "fraction_at_least_7": 0.006060606060606061,
+        "maximum": 10.0,
+        "mean": 1.98,
+        "median": 2.0,
+        "minimum": 0.0,
+        "p90_nearest_rank": 4.0,
+        "p95_nearest_rank": 4.0
+      },
+      "rtt_max_minus_min_ms": {
+        "count": 4950,
+        "maximum": 15.53509249563822,
+        "mean": 2.121974414365739,
+        "median": 1.4880151223046405,
+        "minimum": 0.031065627155274153,
+        "p90_nearest_rank": 4.310602146565825,
+        "p95_nearest_rank": 6.078759172011629
+      }
+    }
+  },
+  "experiment": {
+    "duration_seconds": 200,
+    "ground_stations": 100,
+    "snapshot_interval_ms": 100,
+    "unique_ground_station_pairs": 4950
+  },
+  "figure_10": {
+    "link_capacity_mbps": 10,
+    "moving": {
+      "computed_percent_over_one_third_unused": 31.4931650893796,
+      "intervals_over_one_third_unused": 599,
+      "intervals_with_path": 1902,
+      "reported_percent_over_one_third_unused": 31.49,
+      "total_intervals": 2000
+    },
+    "note": "The 31.49% and 10.90% statistics are computed from 100 ms intervals before the official plot data are averaged to 1 s.",
+    "plot_granularity_ms": 1000,
+    "scenario": "Kuiper K1, Rio de Janeiro to St. Petersburg",
+    "static": {
+      "computed_percent_over_one_third_unused": 10.9,
+      "intervals_over_one_third_unused": 218,
+      "intervals_with_path": 2000,
+      "reported_percent_over_one_third_unused": 10.9,
+      "total_intervals": 2000
+    },
+    "statistic_granularity_ms": 100
+  },
+  "provenance": {
+    "hypatia_commit": "0ac531c313eba2335f6344b46347140c3a0d4230",
+    "release_archive_bytes": 500557372,
+    "release_archive_sha256": "18d761a28706723b57772e0636fbc40b7d57161f4c54069eede0c8ae740cbe2d",
+    "release_tag": "v1"
+  },
+  "regenerated_figures": {
+    "figure_10": {
+      "bytes": 17910,
+      "path": "figures/traffic_matrix_unused_bandwidth/pdf/plot_specific_tm_time_vs_available_bandwidth_over_path.pdf",
+      "sha256": "f7365f27af7cf83b7d42a99dc9ec23e83a2219375ea887be15c57932c45042cb"
+    },
+    "figure_7b": {
+      "bytes": 85420,
+      "path": "figures/constellation_comparison/general_ecdfs/pdf/ecdf_max_minus_min_rtt.pdf",
+      "sha256": "8a0e7d3e00b46502b4397bd7165309df1df5e8a3837655a0fcb640db5deb0617"
+    },
+    "figure_8a": {
+      "bytes": 12389,
+      "path": "figures/constellation_comparison/general_ecdfs/pdf/ecdf_num_path_changes.pdf",
+      "sha256": "73b0017e0e749fdf32a1fc4be22c6f280c3b9838c3b6e552efa86b3f13ef779a"
+    }
+  },
+  "source_files": [
+    {
+      "bytes": 114565,
+      "path": "satgenpy_analysis/data/telesat_1015_isls_plus_grid_ground_stations_top_100_algorithm_free_one_only_over_isls/100ms_for_200s/path/data/ecdf_pairs_num_path_changes.txt",
+      "sha256": "67108fce9ddbcb876a1b9b36fd6eddbe862bc46097126567854d1bc8a214755d"
+    },
+    {
+      "bytes": 185785,
+      "path": "satgenpy_analysis/data/telesat_1015_isls_plus_grid_ground_stations_top_100_algorithm_free_one_only_over_isls/100ms_for_200s/rtt/data/ecdf_pairs_max_minus_min_rtt_ns.txt",
+      "sha256": "37da1edd3010ef9d90df115d309efd91987b6b9e0700ce1ac6f59639943fb29b"
+    },
+    {
+      "bytes": 114660,
+      "path": "satgenpy_analysis/data/kuiper_630_isls_plus_grid_ground_stations_top_100_algorithm_free_one_only_over_isls/100ms_for_200s/path/data/ecdf_pairs_num_path_changes.txt",
+      "sha256": "139e77a077e511918180d211ee7b0b81213e04ef17f294121d2b5cc6717a84d9"
+    },
+    {
+      "bytes": 184371,
+      "path": "satgenpy_analysis/data/kuiper_630_isls_plus_grid_ground_stations_top_100_algorithm_free_one_only_over_isls/100ms_for_200s/rtt/data/ecdf_pairs_max_minus_min_rtt_ns.txt",
+      "sha256": "832a57b9016c7c9ceae1826a574d689f1665bb627d6428984497cc8ec0a686e3"
+    },
+    {
+      "bytes": 114582,
+      "path": "satgenpy_analysis/data/starlink_550_isls_plus_grid_ground_stations_top_100_algorithm_free_one_only_over_isls/100ms_for_200s/path/data/ecdf_pairs_num_path_changes.txt",
+      "sha256": "2d5a449b7ffcdb2e734593f5d1e83db39032d1a2106005c15c7cd18e8940bccc"
+    },
+    {
+      "bytes": 186101,
+      "path": "satgenpy_analysis/data/starlink_550_isls_plus_grid_ground_stations_top_100_algorithm_free_one_only_over_isls/100ms_for_200s/rtt/data/ecdf_pairs_max_minus_min_rtt_ns.txt",
+      "sha256": "8c9489d6d917ce1a7bdc10441e1109f64229dbc3cc42730bd8143f8c61d50263"
+    },
+    {
+      "bytes": 211,
+      "path": "ns3_experiments/traffic_matrix/data/run_specific_tm_pairing_kuiper_isls_moving/utilization_information_1174_to_1229.txt",
+      "sha256": "d028055f0103d768615c8a243b6f66294cc5538493ed6109eace2660ffffb55e"
+    },
+    {
+      "bytes": 211,
+      "path": "ns3_experiments/traffic_matrix/data/run_specific_tm_pairing_kuiper_isls_static/utilization_information_1174_to_1229.txt",
+      "sha256": "26b0365741c25e18530a32e60d2e35376d4063829dc67e1fcec4b8f9228d2609"
+    },
+    {
+      "bytes": 7081,
+      "path": "ns3_experiments/traffic_matrix/data/run_specific_tm_pairing_kuiper_isls_moving/pair_path_utilization_at_1s_1174_to_1229.txt",
+      "sha256": "5f080cfdf76c1a725bc22821560f7103d75b8e6f5842607cee9184e00fb39ba9"
+    },
+    {
+      "bytes": 7081,
+      "path": "ns3_experiments/traffic_matrix/data/run_specific_tm_pairing_kuiper_isls_static/pair_path_utilization_at_1s_1174_to_1229.txt",
+      "sha256": "6ef98dde23fd8d3379c2a327686cc7bc051cc2627eb9774eb7489cf5f5bc5e0d"
+    }
+  ]
+}

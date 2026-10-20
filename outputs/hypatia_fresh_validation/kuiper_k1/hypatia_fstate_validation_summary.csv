@@ -1,0 +1,2 @@
+ConstellationKey,SatelliteCount,GroundStationCount,SnapshotCount,PairCount,MedianRouteChanges,MeanRouteChanges,P90RouteChanges,P95RouteChanges,FractionAtLeast7RouteChanges,MatchesOfficialEcdfExactly,EcdfMismatchCount
+kuiper_k1,1156,100,2000,4950,4,4.38525252525253,7,8,0.115353535353535,1,0

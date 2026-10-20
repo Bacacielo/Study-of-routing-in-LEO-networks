@@ -1,0 +1,3 @@
+# Preserve executable shell syntax and the published ECDF hashes.
+*.sh text eol=lf
+reproducibility/hypatia/official_data/**/*.txt text eol=lf
